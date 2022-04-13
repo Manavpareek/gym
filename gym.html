@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manav fitness</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /*css reset*/
+      body {
+        color: rgba(24, 25, 18, 0.793);
+        margin: 0px;
+        padding: 0px;
+
+        padding: 25px;
+        background: url(img/dumbbells-2465478_1920.jpg);
+        background-repeat: no-repeat;
+      }
+      .left {
+        display: inline-block;
+       ;
+        left: 34px;
+
+ 
+        position: absolute;
+        border-radius: 10px;
+      }
+      .mid {
+        display:block;
+        border: 2px solid rgb(8, 9, 10);
+width: 35%;
+        margin: 0px auto;
+        
+        border-radius: 10px;
+      }
+      .right {
+        position: absolute;
+        right: 34px;
+        top: 25px;
+        display: inline-block;
+        border: 2px solid rgb(14, 14, 10);
+        background-color: black;
+        border-radius: 10px;
+      }
+      
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+        margin: 5px;
+        padding: auto;
+        color: darkcyan;
+    }
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 5px 5px;
+      
+        color: rgb(17, 163, 208);
+        padding: 4px 4px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor:pointer;
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        background:ghostwhite;
+    }
+
+      
+    </style>
+  </head>
+  <body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+           
+            <img src="img/download.png"  width="30%" height="30%" alt="">
+            
+            <div>Manav Fitness</div>
+            
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">sign in/login</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+            <button class="btn">Know more</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN BEST GYM OF KOTA</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text"  name="" placeholder="Enter your Name">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    </header>
+  </body>
+</html>
